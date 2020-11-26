@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
-  font-style: white;
+  font-style: black;
   margin: 0 auto;
   padding: 10px 10px 40px 10px;
   list-style: none ;
@@ -18,7 +18,7 @@
 .rmenu li a {
   padding: 4px 20px ;
   background: transparent;
-  color: white;
+  color: black;
   border-radius: 4px;
   font: 'Lato', sans-serif;
   font-weight: bold;
@@ -29,7 +29,7 @@
 
 .rmenu li a:hover, #navigation li a:focus, #navigation li a:active {
   background: #FE9376;
-  color: white;
+  color: black;
   text-decoration: none;
 }
 
