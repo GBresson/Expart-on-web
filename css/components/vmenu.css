@@ -1,26 +1,21 @@
 .vmenu {
-    display: inline-flex;
-    font-size: 20px;
-    text-align: center;
-  
+  font-style: #FE9376;
+  margin: 0 auto;
+  padding: 0px 10px 40px 10px;
+  list-style: none ;
+  text-align: center;
 }
 
 .vmenu li {
-    display: inline-flex;
-    align-items: center;
-    color: white;
-    margin: 0px auto;
-    padding: 50px;
-    justify-content: space-between;
-    list-style: none;
-    text-align: center;
-
+  display: inline;
+  margin: 0 auto;
 }
 
 .vmenu li a {
-  padding: 4px 20px ;;
-  color: white;
-  border-radius: 8px;
+  padding: 4px 20px ;
+  background: #fff;
+  color: #FE9376;
+  border-radius: 4px;
   font: 'Lato', sans-serif;
   line-height: 1cm ;
   text-align: center ;
@@ -30,10 +25,11 @@
   background: #FE9376;
   color: white;
   text-decoration: none;
-  transition: color 0.3s ease;
 }
 
 .vmenu li img {
-
-  width: 120px;
+  width: 100px;
+  float: justify;
 }
+
+
