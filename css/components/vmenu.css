@@ -12,8 +12,7 @@
 
 .vmenu li a {
   padding: 4px 20px ;
-  background: #fff;
-  color: #FE9376;
+  color: white;
   border-radius: 4px;
   font: 'Lato', sans-serif;
   line-height: 1cm ;
@@ -24,11 +23,12 @@
   background: #FE9376;
   color: white;
   text-decoration: none;
+  transition: color 0.3s ease;
+  
 }
 
 .vmenu li img {
-  width: 100px;
-  float: justify;
+  width: 120px;
 }
 
 
